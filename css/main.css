@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav design */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(230, 4, 143);
+    padding: 15px;
+    box-shadow: 10px 7px 20px rgb(189, 186, 186);
+}
+.menu-item {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    
+}
+.menu-item ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-size: 18px ;  
+}
+   
+.menu-item ul li a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px black; 
+   
+}
+.menu-item ul  li p{
+    color: white;
+    text-shadow: 2px 2px 2px black; 
+
+}
+
+
+.bkas-logo img{
+    height: 30px;
+    padding-left: 200px;
+    
+}
+
+.nav-content p{
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.nav-logo{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    margin-right: px;
+}
+.button-bkash button{
+    width: 110px;
+    border-radius: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background: rgb(230, 4, 143);
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    text-shadow: 2px 2px 2px black; 
+   
+}
+.menu-container{
+    margin-right: 50px;
+    
+}
+/* nav design end */
